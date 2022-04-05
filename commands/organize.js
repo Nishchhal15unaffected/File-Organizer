@@ -14,7 +14,7 @@ for(key in types){
 let folderPath=path.join(src,key);
 fs.mkdirSync(folderPath);
 }   
-let Otherf=path.join(src,"other");
+let Otherf=path.join(src,"others");
 fs.mkdirSync(Otherf)
 }
  let allentities=fs.readdirSync(src);
